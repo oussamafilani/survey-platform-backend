@@ -1,0 +1,40 @@
+{
+    "compilerOptions": {
+      "lib": [
+        "es5",
+        "es6",
+        "es2016"
+      ],
+        "experimentalDecorators": true,
+        "target": "es2016",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "baseUrl": "./src",
+        "types": ["node"],
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "strictPropertyInitialization":false,
+        "strict": true,
+        "outDir": "./build",
+        "emitDecoratorMetadata": true,
+        "allowSyntheticDefaultImports": true,
+        "skipLibCheck": true,
+        "sourceMap": false,
+        "allowJs": true,
+        "paths": {
+            "@/controllers/*": ["api/controllers/*"],
+            "@/helpers/*": ["api/helpers/*"],
+            "@/middlewares/*": ["api/middlewares/*"],
+            "@/models/*": ["api/models/*"],
+            "@/routes/*": ["api/routes/*"],
+            "@/services/*": ["api/services/*"],
+            "@/validations/*": ["api/validations/*"],
+            "@/interfaces/*": ["interfaces/*"],
+            "@/config/*": ["config/*"],
+            "@/database/*": ["database/entities/*"],
+            "@/logger/*": ["logger/*"],
+            "@/utils/*": ["utils/*"]
+        }
+    },
+    "exclude": ["node_modules"]
+}
