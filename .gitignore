@@ -46,6 +46,7 @@ typings/
 
 # build derctory
 dist/
+build/
 
 # TypeScript cache
 *.tsbuildinfo
