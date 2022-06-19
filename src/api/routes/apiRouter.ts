@@ -9,6 +9,6 @@ router.get('/', (req: Request, res: Response) => {
     });
 });
 
-router.use('/blog_post_event', Auth);
+router.use('/test_event', Auth);
 
 export default router;

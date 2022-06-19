@@ -15,7 +15,7 @@
         "forceConsistentCasingInFileNames": true,
         "strictPropertyInitialization":false,
         "strict": true,
-        "outDir": "./build",
+        "outDir": "./dist",
         "emitDecoratorMetadata": true,
         "allowSyntheticDefaultImports": true,
         "skipLibCheck": true,
