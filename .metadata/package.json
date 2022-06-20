@@ -1,0 +1,28 @@
+{
+  "name": "quiz-platform",
+  "version": "1.0.0",
+  "description": "Online quiz platform",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "debug": "ndb app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oussamafilani/quiz-platform.git"
+  },
+  "author": "Oussama Filani",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/oussamafilani/quiz-platform/issues"
+  },
+  "homepage": "https://github.com/oussamafilani/quiz-platform#readme",
+  "devDependencies": {
+    "sequelize-cli": "^6.3.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "pg": "^8.7.1",
+    "sequelize": "^7.0.0-alpha.2"
+  }
+}

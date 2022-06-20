@@ -44,10 +44,6 @@ jspm_packages/
 # TypeScript v1 declaration files
 typings/
 
-# build derctory
-dist/
-build/
-
 # TypeScript cache
 *.tsbuildinfo
 
@@ -106,6 +102,3 @@ dist
 
 # TernJS port file
 .tern-port
-
-
-docker-compose
